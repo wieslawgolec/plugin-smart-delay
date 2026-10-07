@@ -39,7 +39,8 @@
             "tests/Stub/CampaignExecutionEvent.php",
             "tests/Stub/Lead.php",
             "tests/Stub/MauticCoreExtension.php",
-            "tests/Stub/CoreEvents.php"
+            "tests/Stub/CoreEvents.php",
+            "tests/Stub/CustomAssetsEvent.php"
         ]
     },
     "scripts": {
