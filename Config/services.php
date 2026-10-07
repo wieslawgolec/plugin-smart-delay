@@ -12,9 +12,9 @@ return static function (ContainerConfigurator $configurator): void {
         ->autoconfigure()
         ->public();
 
-    $excludes = [
-        'Form/Type',
-    ];
+    // Form types, event subscribers, commands and executors are all
+    // auto-discovered. Only exclude pure DTO / non-service directories.
+    $excludes = [];
 
     $services->load('MauticPlugin\\MauticSmartDelayBundle\\', '../')
         ->exclude('../{'.implode(',', array_merge(MauticCoreExtension::DEFAULT_EXCLUDES, $excludes)).'}');
