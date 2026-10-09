@@ -4,7 +4,7 @@
 
 A production-ready Mautic 7 plugin that adds a **Smart Delay** campaign action, a **GrapesJS A/B subject-line block**, and a **daily engagement analysis CLI command**. When a contact reaches the Smart Delay node, the plugin looks up their historical peak engagement hour and defers the rest of the campaign until that hour — so emails and follow-ups land when the contact is most likely to interact.
 
-**Current version: 1.0.0** · **License: MIT** · **PHP 8.1+** · **Mautic 7.x (Symfony 7)**
+**Current version: 1.0.0** · **License: MIT** · **PHP 8.1+** · **Mautic 7.x**
 
 ---
 
@@ -355,7 +355,6 @@ Tests use lightweight stubs under `tests/Stub/` so they run **without a full Mau
 - GrapesJS A/B subject-line block + AssetSubscriber
 - `mautic:smartdelay:analyze` daily batch command
 - PHPUnit 11.5 suite and GitHub Actions (PHP 8.2 / 8.5 / 8.6)
-- Sponsorship links aligned with `plugin-filesystem-queue`
 
 ---
 
@@ -365,8 +364,6 @@ If this plugin saves you time, you can support development:
 
 - **GitHub Sponsors:** [github.com/sponsors/wieslawgolec](https://github.com/sponsors/wieslawgolec)
 - **Buy Me a Coffee:** [buymeacoffee.com/wieslawgolec](https://buymeacoffee.com/wieslawgolec)
-
-Use the **Sponsor** button on this repository for the same links.
 
 ---
 
