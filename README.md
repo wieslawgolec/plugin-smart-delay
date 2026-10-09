@@ -38,7 +38,7 @@ A production-ready Mautic 7 plugin that adds a **Smart Delay** campaign action, 
 | **Batch analyser CLI** | `mautic:smartdelay:analyze` pre-computes optimal hours for high-volume installs |
 | **GrapesJS A/B Subject block** | Alternative subject-line variant block for email-html / email-mjml builders |
 | **Asset auto-injection** | `AssetSubscriber` loads the GrapesJS script into the admin UI |
-| **Symfony 7 / Mautic 7** | Autowiring, `services.php`, Extension class — no legacy service arrays |
+| **Mautic 7 / Symfony 7** | Autowiring, `services.php`, Extension class — no legacy service arrays |
 | **PHPUnit 11.5 suite** | Executor, subscriber, form type, command, bundle, asset subscriber |
 | **GitHub Actions** | Matrix: **PHP 8.2 / 8.5 / 8.6** |
 
